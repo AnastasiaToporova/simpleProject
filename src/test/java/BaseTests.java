@@ -12,4 +12,8 @@ public class BaseTests {
     public void checkSumNegative() {
         Assert.assertNotEquals(cal.SumNumber(2, 5), 8);
     }
+    @Test
+    public void checkNegativeSumNumbers() {
+        Assert.assertNotEquals(cal.SumNumber(-2, -5), -7);
+    }
 }
